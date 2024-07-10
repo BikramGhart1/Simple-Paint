@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply p-2 bg-secondary active:text-white active:border-white active:border-2 border-2 border-transparent rounded-md
+}
