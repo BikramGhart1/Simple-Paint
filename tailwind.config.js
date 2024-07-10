@@ -9,7 +9,7 @@ export default {
         'secondary': '#BB9AB1',
         'tertiary': '#FEFBD8',
         'fourtiary': '#EECEB9'
-      }
+      },
     },
   },
   plugins: [],

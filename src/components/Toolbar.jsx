@@ -55,7 +55,7 @@ export default function Toolbar({ erase, brush, selectColor, getBrushSize, brush
     ];
 
     return (
-        <div className='flex flex-row justify-around items-center pt-3 text-tertiary font-bold  bg-primary'>
+        <div className='flex flex-row justify-around items-center pt-2 text-tertiary font-bold  bg-primary'>
             <div>
                 <button className='btn' onClick={() => { brush() }} >Brush</button>
             </div>

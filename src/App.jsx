@@ -2,7 +2,6 @@
 import { useState } from 'react'
 import './App.css'
 import Canvas from './components/Canvas'
-import Footer from './components/Footer'
 import Toolbar from './components/Toolbar'
 
 function App() {
@@ -38,7 +37,6 @@ function App() {
     <>
       <Toolbar erase={erase} brush={brush} selectColor={selectColor} getBrushSize={getBrushSize} brushSize={brushSize} />
       <Canvas brushSize={brushSize} brushColor={brushColor} isEraser={isEraser} />
-      <Footer />
 
     </>
   )

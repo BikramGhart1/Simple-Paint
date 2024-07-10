@@ -11,7 +11,7 @@ export default function Canvas({ brushSize, brushColor, isEraser }) {
     useEffect(() => {
         const canvasObject = canvasRef.current;
         canvasObject.width = window.innerWidth * 0.8;
-        canvasObject.height = window.innerHeight * 0.8;
+        canvasObject.height = window.innerHeight * 0.7;
 
         const context = canvasObject.getContext('2d');
         context.lineCap = 'round';
@@ -94,7 +94,7 @@ export default function Canvas({ brushSize, brushColor, isEraser }) {
             />
             <button
                 onClick={downloadImage}
-                className='mt-5 px-4 py-2 bg-secondary text-tertiary font-semibold rounded'>
+                className='mt-1 px-4 py-1 bg-secondary text-tertiary font-semibold rounded'>
                 Download Image
             </button>
         </div>
