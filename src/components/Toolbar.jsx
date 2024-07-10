@@ -88,10 +88,10 @@ export default function Toolbar({ erase, brush, selectColor, getBrushSize, brush
 
                         {colorIsOpen ?
                             (
-                                <img src='../public/arrow-up.png' className='w-4 ' />
+                                <img src='../public/arrow-up.png' alt='^' className='w-4 ' />
                             ) :
                             (
-                                <img src='../public/arrow-down.png' className='w-4 ' />
+                                <img src='../public/arrow-down.png' alt='v' className='w-4 ' />
                             )}
                     </button>
 
