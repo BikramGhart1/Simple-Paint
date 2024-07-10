@@ -1,6 +1,7 @@
 # Simple Paint application
 
 It is a single paged simple paint application
+
 live demo: https://simplepaint.netlify.app/
 
 # Few screenshots of my drawing
