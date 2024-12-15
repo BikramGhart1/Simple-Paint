@@ -2,7 +2,7 @@
 
 It is a single paged simple paint application
 
-live demo: https://simplepaint.netlify.app/
+live demo: https://simple-paint.pages.dev/
 
 # Few screenshots of my drawing
 ![Screenshot 2024-07-10 211149](https://github.com/BikramGhart1/Simple-Paint/assets/132071114/57d0bb66-67f0-4df0-96d7-799dc579503d)
